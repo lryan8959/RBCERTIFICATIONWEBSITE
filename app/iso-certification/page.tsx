@@ -1,14 +1,26 @@
 import { Navbar } from "@/components/navbar"
+import { HeroSection } from "@/components/hero-section"
+import { MarqueeSection } from "@/components/marquee-section"
+import { ServicesSection } from "@/components/services-section"
+import { AboutSection } from "@/components/about-section"
+import { TestimonialsSection } from "@/components/testimonials-section"
+import { CaseStudiesSection } from "@/components/case-studies-section"
+import { FaqSection } from "@/components/faq-section"
+import { LocationSection } from "@/components/location-section"
 import { Footer } from "@/components/footer"
-import { ISOHeroSection } from "@/components/iso-hero-section"
-import { ISOStandardsSection } from "@/components/iso-standards-section"
 
-export default function ISOCertificationPage() {
+export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Navbar />
-      <ISOHeroSection />
-      <ISOStandardsSection />
+      <HeroSection />
+      <MarqueeSection />
+      <ServicesSection />
+      <AboutSection />
+      <TestimonialsSection />
+      <CaseStudiesSection />
+      <FaqSection />
+      <LocationSection />
       <Footer />
     </main>
   )
