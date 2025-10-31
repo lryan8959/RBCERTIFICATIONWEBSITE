@@ -8,6 +8,7 @@ import { CaseStudiesSection } from "@/components/case-studies-section"
 import { FaqSection } from "@/components/faq-section"
 import { LocationSection } from "@/components/location-section"
 import { Footer } from "@/components/footer"
+import { ServicesCard } from "@/components/services-card"
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <HeroSection />
       <MarqueeSection />
       <ServicesSection />
-      <AboutSection />
+      <AboutSection/>
       <TestimonialsSection />
       <CaseStudiesSection />
       <FaqSection />
