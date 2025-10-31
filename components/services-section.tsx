@@ -115,15 +115,7 @@ export function ServicesSection() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#e8f0f5] to-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-light text-[#5b8ba8] mb-6 leading-tight">
-            ISO Certification Standards
-          </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            We deliver comprehensive ISO certification, from in-depth gap analysis to seamless audit readiness and
-            certification completion
-          </p>
-        </div>
+       
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
           {services.map((service) => {

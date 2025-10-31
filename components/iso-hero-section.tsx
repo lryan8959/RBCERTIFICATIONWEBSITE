@@ -19,16 +19,15 @@ export function ISOHeroSection() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 pb-16">
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-[#5b8ba8] mb-8 leading-tight">
-          ISO Certification
+        ISO Certification Standards
+
         </h1>
 
         {/* Description */}
         <div className="max-w-3xl mx-auto mb-10">
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
-            We deliver comprehensive ISO certification, from in-depth gap analysis to seamless audit readiness and
-            certification completion. Our expert team aligns every process, policy, and document with the highest global
-            standards.
-          </p>
+          We deliver comprehensive ISO certification, from in-depth gap analysis to seamless audit readiness and certification completion
+</p>
         </div>
 
         {/* CTA Button */}

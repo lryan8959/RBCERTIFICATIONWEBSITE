@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <MarqueeSection />
-      <ServicesSection />
+      <ServicesCard />
       <AboutSection/>
       <TestimonialsSection />
       <CaseStudiesSection />
